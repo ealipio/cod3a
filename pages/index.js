@@ -21,7 +21,7 @@ export default function Home() {
         <meta property="og:url" content="https://cod3a.com/" />
         <meta
           property="og:image"
-          content="https://cdn.jsdelivr.net/gh/ealipio/cod3a/assets/bg.webp"
+          content="https://cdn.jsdelivr.net/gh/ealipio/cod3a/public/assets/bg.webp"
         />
         <meta property="og:image:type" content="image/webp" />
         <meta property="og:image:width" content="1920" />
@@ -31,7 +31,7 @@ export default function Home() {
           content="Cielo con nubes y hermoso lago junto al bosque"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="icon" type="image/png" href="/assets/favicon.png" />
+        <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/ealipio/cod3a/public/assets/favicon.png" />
       </Head>
 
       <main>
