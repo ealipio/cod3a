@@ -1,0 +1,28 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg {
+  background-image: url();
+  height: 100vh;
+  background-image: url('/assets/bg.webp');
+  background-size: cover;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 1920px) {
+  .bg {
+    background-position-x: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+}
