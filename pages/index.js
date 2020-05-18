@@ -44,8 +44,8 @@ export default function Home() {
 
       <main>
         <div className="bg"></div>
-        <div class="profile">
-          <div class="avatar" title="Show biography">
+        <div className="profile">
+          <div className="avatar" title="Show biography">
             <img
               src="https://en.gravatar.com/userimage/141916401/118b9eca936a71fabee80991002469fb.jpeg"
               alt="Avatar"
@@ -53,8 +53,8 @@ export default function Home() {
           </div>
 
           <div>
-            <h1 class="name">Eisson Alipio</h1>
-            <div class="links">
+            <h1 className="name">Eisson Alipio</h1>
+            <div className="links">
               <a target="_blank" href="https://www.linkedin.com/in/ealipio">LinkedIn</a>
               <a target="_blank" href="https://youtube.com/c/cod3a">Channel</a>
               <a target="_blank" href="https://github.com/ealipio">GitHub</a>
