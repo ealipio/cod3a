@@ -28,14 +28,39 @@ export default function Home() {
         <meta property="og:image:height" content="1080" />
         <meta
           property="og:image:alt"
-          content="Cielo con nubes y hermoso lago junto al bosque"
+          content="Nice sky with beautiful lake near the forest"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/ealipio/cod3a/public/assets/favicon.png" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+          rel="stylesheet"
+        ></link>
+        <link
+          rel="icon"
+          type="image/png"
+          href="https://cdn.jsdelivr.net/gh/ealipio/cod3a/public/assets/favicon.png"
+        />
       </Head>
 
       <main>
         <div className="bg"></div>
+        <div class="profile">
+          <div class="avatar" title="Show biography">
+            <img
+              src="https://en.gravatar.com/userimage/141916401/118b9eca936a71fabee80991002469fb.jpeg"
+              alt="Avatar"
+            />
+          </div>
+
+          <div>
+            <h1 class="name">Eisson Alipio</h1>
+            <div class="links">
+              <a target="_blank" href="https://www.linkedin.com/in/ealipio">LinkedIn</a>
+              <a target="_blank" href="https://youtube.com/c/cod3a">Channel</a>
+              <a target="_blank" href="https://github.com/ealipio">GitHub</a>
+            </div>
+          </div>
+        </div>
       </main>
     </>
   );

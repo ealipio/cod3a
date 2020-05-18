@@ -10,6 +10,17 @@ body {
   box-sizing: border-box;
 }
 
+main {
+  color: #4a4a4a;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1;
+}
+
+a{
+  color: black;
+  font-size: 1.2rem;
+}
+
 .bg {
   background-image: url();
   height: 100vh;
@@ -24,5 +35,65 @@ body {
   }
 }
 
-@media (max-width: 600px) {
+.profile {
+  position: absolute;
+  bottom: 0;
+  user-select: none -moz-user-select none;
+  margin: 1rem;
+}
+@media screen and (min-width: 600px) {
+  .profile {
+    display: flex;
+    margin: 2rem;
+  }
+}
+
+.avatar {
+  width: 100px;
+  transition: opacity 0.25s;
+  cursor: pointer;
+  align-self: center;
+}
+@media screen and (min-width: 600px) {
+  .avatar {
+    margin-right: 2rem;
+  }
+}
+
+.avatar img {
+  border-radius: 100%;
+}
+
+.name {
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.5rem;
+}
+
+@media screen and (min-width: 600px) {
+  .name {
+    font-size: 3rem;
+  }
+}
+
+.links a {
+  text-decoration: none;
+  transition: color 0.25s;
+}
+
+.links a:hover {
+  color: #333;
+}
+
+@media screen and (max-width: 600px) {
+  .links a {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .links a {
+    margin-right: 1rem;
+  }
 }
