@@ -22,7 +22,6 @@ a{
 }
 
 .bg {
-  background-image: url();
   height: 100vh;
   background-image: url('https://cdn.jsdelivr.net/gh/ealipio/cod3a/public/assets/bg.webp');
   background-size: cover;
