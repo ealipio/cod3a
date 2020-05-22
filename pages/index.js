@@ -31,6 +31,7 @@ export default function Home() {
           content="Nice sky with beautiful lake near the forest"
         />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="google-site-verification" content="YSSa96IBpzrcevvc8jDf8bnIyJp_t9D2Ctum55jecwk" />
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
           rel="stylesheet"
