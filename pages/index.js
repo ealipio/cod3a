@@ -31,7 +31,6 @@ export default function Home() {
           content="Nice sky with beautiful lake near the forest"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="google-site-verification" content="YSSa96IBpzrcevvc8jDf8bnIyJp_t9D2Ctum55jecwk" />
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
           rel="stylesheet"
@@ -57,7 +56,7 @@ export default function Home() {
             <h1 className="name">Eisson Alipio</h1>
             <div className="links">
               <a target="_blank" href="https://www.linkedin.com/in/ealipio">LinkedIn</a>
-              <a target="_blank" href="https://youtube.com/c/cod3a">Channel</a>
+              <a target="_blank" href="https://youtube.com/c/cod3a">Youtube Channel</a>
               <a target="_blank" href="https://github.com/ealipio">GitHub</a>
             </div>
           </div>
